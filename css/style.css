@@ -35,7 +35,7 @@ footer {
 }
 
 .logo,
-.header-button {
+.nav-button {
     width: 20%;
 }
 
@@ -117,7 +117,7 @@ a {
     text-align: end;
 }
 
-.accedi {
+.enter {
     border-radius: 50px;
     border-color: transparent;
     font-size: 12px;
@@ -185,7 +185,7 @@ h2 {
     background-position: center;
 }
 
-h3 {
+.stars h3 {
     font-size: 22px;
     padding-top: 50px;
 }
@@ -199,7 +199,6 @@ h3 {
 /* footer */
 .footer-links {
     width: calc(100% / 5);
-    background-color: rgb(71, 74, 75);
 }
 
 .social-icon {
@@ -208,6 +207,7 @@ h3 {
 
 .footer-top {
     border-bottom: 1px solid rgb(55, 138, 255);
+    text-align: left;
 }
 
 .footer-bottom {

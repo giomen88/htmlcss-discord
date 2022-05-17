@@ -34,35 +34,50 @@ footer {
     text-align: center;
 }
 
+.logo,
+.header-button {
+    width: 20%;
+}
+
+.download,
+.open {
+    border-radius: 50px;
+    border-color: transparent;
+    padding: 10px 30px;
+    margin: 0 10px;
+}
+
+main section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 .flex {
     display: flex;
 }
 
-.flex.white {
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.white {
     background-color: rgb(255, 255, 255);
 }
 
-.flex.reverse.grey {
-    flex-direction: row-reverse;
-    background-color: rgb(227, 227, 227);
+.grey {
+    background-color: rgb(246, 246, 246);
 }
 
-.button.download,
-.button.open {
-    border-radius: 50px;
-    border-color: transparent;
-    padding: 10px 15px;
-    margin: 0 10px;
-}
 
 /* header */
 
 /* nav */
 .header-nav {
-    background-color: rgb(49, 97, 224);
+    background-color: rgb(37, 94, 233);
     height: 30px;
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     font-size: 12px;
 }
 
@@ -71,23 +86,19 @@ footer {
 }
 
 .header-bottom {
-    min-height: 300px;
+    height: 350px;
     background-image: url(../img/jumbo.png);
-    background-size: 100% 400px;
+    background-size: 100% 500px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.logo,
-.header-button {
-    width: 20%;
-}
 
 .logo {
     background-image: url(../img/logo.svg);
     background-size: 90px;
     background-repeat: no-repeat;
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -114,7 +125,7 @@ a {
     padding: 4px 6px;
 }
 
-/* bottom */
+/* header-bottom */
 .header-title {
     width: 40%;
     margin: 0 auto;
@@ -136,20 +147,54 @@ h1 {
 }
 
 /* main */
-figure,
-article {
-    width: calc(100% /2);
+
+.image {
+    width: 70%;
     min-height: 300px;
 }
 
+.text {
+    width: 30%;
+    min-height: 300px;
+    text-align: left;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
 img {
-    width: 200px;
+    width: 600px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .main-last {
-    background-color: rgb(227, 227, 227);
-    text-align: center;
+    background-color: rgb(246, 246, 246);
 }
+
+.main-last .container {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h3 {
+    font-size: 22px;
+    padding-top: 50px;
+}
+
+.download.blue {
+    color: rgb(255, 255, 255);
+    background-color: rgb(142, 161, 225);
+}
+
 
 /* footer */
 .footer-links {

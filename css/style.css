@@ -47,6 +47,14 @@ footer {
     background-color: rgb(227, 227, 227);
 }
 
+.button.download,
+.button.open {
+    border-radius: 50px;
+    border-color: transparent;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+
 /* header */
 .header-nav {
     background-color: rgb(49, 97, 224);
@@ -68,7 +76,7 @@ footer {
 }
 
 .discord,
-.header-buttons {
+.header-button {
     width: 20%;
 }
 
@@ -116,7 +124,10 @@ h1 {
     text-align: center;
 }
 
-button {}
+.open {
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 39, 42);
+}
 
 /* main */
 figure,

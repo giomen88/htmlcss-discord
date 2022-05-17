@@ -1,0 +1,154 @@
+/* generics */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* header,
+main,
+footer {
+    padding-top: 30px;
+    padding-bottom: 50px;
+} */
+
+header {
+    color: rgb(255, 255, 255);
+
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: rgb(35, 39, 42);
+    color: rgb(255, 255, 255);
+}
+
+/* utils */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.white {
+    background-color: rgb(255, 255, 255);
+}
+
+.flex.reverse.grey {
+    flex-direction: row-reverse;
+    background-color: rgb(227, 227, 227);
+}
+
+/* header */
+.header-nav {
+    background-color: rgb(49, 97, 224);
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 12px;
+}
+
+.header.container {
+    justify-content: space-between;
+}
+
+.header-bottom {
+    min-height: 300px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.discord,
+.header-buttons {
+    width: 20%;
+}
+
+.discord {
+    background-image: url(../img/logo.svg);
+    background-size: 90px;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+.nav-button {
+    width: 20%;
+    text-align: end;
+}
+
+.accedi {
+    border-radius: 50px;
+    border-color: transparent;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    padding: 4px 6px;
+}
+
+.links {
+    width: 40%;
+    justify-content: space-between;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header-title {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+.header-buttons {
+    text-align: center;
+}
+
+button {}
+
+/* main */
+figure,
+article {
+    width: calc(100% /2);
+    min-height: 300px;
+}
+
+img {
+    width: 200px;
+}
+
+.main-last {
+    background-color: rgb(227, 227, 227);
+    text-align: center;
+}
+
+/* footer */
+.footer-links {
+    width: calc(100% / 5);
+    background-color: rgb(71, 74, 75);
+}
+
+.social-icon {
+    display: inline-block;
+}
+
+.footer-top {
+    border-bottom: 1px solid rgb(55, 138, 255);
+}
+
+.footer-bottom {
+    justify-content: space-between;
+    padding: 10px;
+}

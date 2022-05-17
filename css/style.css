@@ -34,10 +34,6 @@ footer {
     text-align: center;
 }
 
-.logo,
-.nav-button {
-    width: 20%;
-}
 
 .download,
 .open {
@@ -85,12 +81,9 @@ main section {
     justify-content: space-between;
 }
 
-.header-bottom {
-    height: 350px;
-    background-image: url(../img/jumbo.png);
-    background-size: 100% 500px;
-    background-position: center;
-    background-repeat: no-repeat;
+.logo,
+.nav-button {
+    width: 20%;
 }
 
 
@@ -126,6 +119,14 @@ a {
 }
 
 /* header-bottom */
+.header-bottom {
+    height: 350px;
+    background-image: url(../img/jumbo.png);
+    background-size: 100% 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .header-title {
     width: 40%;
     margin: 0 auto;
@@ -147,7 +148,6 @@ h1 {
 }
 
 /* main */
-
 .image {
     width: 70%;
     min-height: 300px;
